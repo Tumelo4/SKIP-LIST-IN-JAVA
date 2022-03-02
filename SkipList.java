@@ -130,7 +130,6 @@ public class SkipList<T extends Comparable<? super T>> {
 
 	public T search(T key) {
 
-		// SEARCH I GAVE IT TAWANDA
 
 		for (int index = maxLevel-1; index>=0; index--)
 		{
